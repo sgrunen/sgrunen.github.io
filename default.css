@@ -1,0 +1,119 @@
+/*This is an external CSS file*/
+/*
+Names: Mae-Lin Crumpton, Sher Grünenberg, Wyatt Kirkhove
+Final Project
+CSCI 330, Fall 2021
+*/
+
+body {
+	font-family: Candara;
+	background-color: deepskyblue;
+}
+h1 	{
+	text-align:center;
+	font-size : 2em;
+}
+
+h2	{
+	text-align: left;
+	font-size : 1.75em;
+}
+
+h3 	{
+	text-align:center;
+	font-size:1.5em;
+}
+h4	{
+	text-align:left;
+	font-size: 1.5em;
+}
+p,dd	{font-size:1.17em;}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+  background-color: darkblue;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  font-weight:bold;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: lightblue;
+}
+
+
+a {color: white;}
+
+/* mouse over link */
+a:hover {
+  color: black;
+  font-weight: bold;
+}
+
+
+/* table style info */
+table, td , th {
+	border: 2px solid blue;
+	border-collapse: collapse;
+	text-align:center;
+
+}
+
+table.center {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-top: auto;
+}
+
+th {
+	
+	height: 20px;
+
+}
+
+caption,th {
+	color: black;
+	font-size: 1.25em;
+	font-weight: bold;
+}
+
+td {
+	color: black;
+	height: 20px;
+	font-size: 1.17em;
+	font-weight: normal;
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+/*info for buttons  - OK with changing the colors, would like to keep the hover feature a different color*/
+
+/*button {
+	font-size: 0.75em;
+	cursor: pointer;
+	background-color: blue;
+	color: white;
+} */
+#submit:hover {
+	background-color: blue;
+	color: white;
+}
+
+
