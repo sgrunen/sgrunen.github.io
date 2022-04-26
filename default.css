@@ -29,6 +29,7 @@ h4	{
 }
 p,dd,li	{font-size:1.17em;}
 
+
 ul {
   list-style-type: none;
   margin: 0px;
@@ -37,7 +38,7 @@ ul {
   background-color: darkblue;
 }
 
-li {
+li.nav {
   float: left;
   border-right: 1px solid #bbb;
 }
@@ -67,7 +68,7 @@ a:hover {
 
 /* table style info */
 table, td , th {
-	border: 2px solid blue;
+	border: 2px solid black;
 	border-collapse: collapse;
 	text-align:center;
 
@@ -114,4 +115,10 @@ td {
 	color: white;
 }
 
+footer {
+  text-align: right;
+  padding: 3px;
+  background-color: darkblue;
+  color: white;
+}
 
