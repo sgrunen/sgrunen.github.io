@@ -30,7 +30,7 @@ h4	{
 p,dd,li	{font-size:1.17em;}
 
 
-ul {
+div ul {
   list-style-type: none;
   margin: 0px;
   padding: 0px;
@@ -58,7 +58,8 @@ div li a:hover {
   background-color: salmon}
 
 
-a {color: white;}
+a {color: darkblue;}
+footer a {color: white;}
 
 
 /* mouse over link */
